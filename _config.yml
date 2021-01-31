@@ -1,18 +1,15 @@
-title:              "블로그 제목"
+title:              "어쩌다 장업계 마케터"
 tagline:            "블로그 슬로건"
-email:              "your-email@example.com"
+email:              "shunaem2@gmail.com"
 description:        "블로그 설명"
 author:             "작성자 이름"
 baseurl:            "/"
-url:                "https://도메인"
+url:                "https://shunaem.com"
 locale:             "ko_KR"
-thumbnail:          "/img/thumbnail.jpg"
+thumbnail:          "img/blogthumbnail.png"
 
 # Social Profiles
-twitter_username:   twitter_username
-instagram_username: instagram_username
-facebook_username:  facebook_username
-linkedin_username:  linkedin_username
+
 
 # Build settings
 markdown:           kramdown
