@@ -93,4 +93,28 @@
   <meta name="msapplication-TileImage" content="{{ site.github.url }}/img/icon/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
   <!-- End Favicon Tag -->
+
+  <!--Start 구조화된 데이터-->
+  {% if page.feature %}
+<script type="application/ld+json">
+{
+"@context": "https://schema.org",
+"@type": "BlogPosting",
+"headline": "좋아하는 구석 (1)",
+"image": [
+“{{ site.url }}{{ page.feature }}“
+] ,
+"datePublished": "{{ page.date }}"
+}
+</script>
+{% endif %}
+<!--End 구조화된 데이터-->
+<!--Start 구조화된 데이터-->
+<script type="application/ld+json">
+{
+"@context": "https://schema.org",
+"@type": "Person",
+"name": "어쩌다 장업계 마케터",
+"url": "https://www.shunaem.com",}
+</script>
 </head>
